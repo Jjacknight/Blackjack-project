@@ -20,7 +20,7 @@ public class _Deck
 	
 	public void reset()
 	{
-		ArrayList<Card> resetDeck = new ArrayList<Card>();
+		ArrayList<_Card> resetDeck = new ArrayList<_Card>();
 		
 		_Card.Suit suits[] = _Card.Suit.values();	
 		_Card.Value values[] = _Card.Value.values();
